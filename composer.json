@@ -5,7 +5,7 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "rm -r public/",
+      "rm -r public",
       "cp -r vendor/components/jquery public/jquery",
       "cp -r vendor/twbs/bootstrap/dist public/bootstrap"
     ]

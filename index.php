@@ -9,8 +9,37 @@
 </head>
 <body>
 
+<?php
+  
+?>
+
   <div class="container">
-    <h1>Hello</h1>
+    <br>
+    <h1>Чат</h1>
+    <hr>
+    <form method="POST" id="form">
+      <div class="form-group">
+        <label for="inputmsg">Отправить сообщение</label>
+        <textarea type="password" class="form-control" id="inputmsg" placeholder="Сообщение"></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="inputname">Ваше имя</label>
+        <input type="name" class="form-control" id="inputname" placeholder="Ваше имя">
+      </div>
+      <button type="submit" class="btn span4 btn-primary">Отправить</button>
+    </form>
+
+    <div id="msg-list">
+      <hr>
+
+      <div class="msg">
+        <h5><small>12:21</small> Владимир</h5>
+        <p>Текст</p>
+      </div>
+      <hr>
+    </div>
+    
   </div>
 
   <script src="/public/jquery/jquery.js"></script>
