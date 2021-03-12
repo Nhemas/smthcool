@@ -1,0 +1,13 @@
+{
+  "require": {
+    "twbs/bootstrap": "^4.6",
+    "components/jquery": "^3.5"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "rm -r public/",
+      "cp -r vendor/components/jquery public/jquery",
+      "cp -r vendor/twbs/bootstrap/dist public/bootstrap"
+    ]
+  }
+}
