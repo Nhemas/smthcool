@@ -10,7 +10,7 @@
 <body>
 
   <div class="container">
-    <h1>Hello once! WORK PLEASE</h1>
+    <h1></h1>
   </div>
 
   <script src="/public/jquery/jquery.js"></script>
