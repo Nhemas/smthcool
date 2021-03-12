@@ -10,7 +10,7 @@
 <body>
 
   <div class="container">
-    <h1>Hello twice!</h1>
+    <h1>Hello once!</h1>
   </div>
 
   <script src="/public/jquery/jquery.js"></script>
