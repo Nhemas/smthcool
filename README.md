@@ -1,10 +1,14 @@
 # Чат
 
 Запуск:
-```git clone https://github.com/Nhemas/smthcool```
+```
+git clone https://github.com/Nhemas/smthcool
+```
 1. Скопировать в терминал:
-```composer install
+```
+composer install
 cp -r vendor/components/jquery public/jquery
-cp -r vendor/twbs/bootstrap/dist public/bootstrap```
+cp -r vendor/twbs/bootstrap/dist public/bootstrap
+```
 2. Импортнуть базу данных (**chat.sql**)
 3. Заполнить **config.json** в корне
