@@ -11,30 +11,9 @@
 
 <?php
 echo '<hr>';
-//-----------
 
 
-$dblink = mysqli_init();
-if (!$dblink->real_connect('localhost', 'root', 'root', 'chat')) {
-  die('Ошибка подключения (' . mysqli_connect_errno() . ') '
-          . mysqli_connect_error());
-}
 
-$query = 'SELECT * FROM msg';
-$result = $dblink->query($query);
-
-foreach ($result as $value) {
-  // $line = $value->fetch_array(MYSQLI_ASSOC);
-  print_r($value);
-  echo '<br>';
-
-}
-
-$time = time();
-echo $query1 = "INSERT INTO `msg` (`id`, `time`, `name`, `msg`) VALUES (NULL, '{$time}', '234', '345');";
-$dblink->query($query1);
-
-//-----------
 echo '<hr>';
 ?>
 
