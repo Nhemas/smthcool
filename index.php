@@ -8,20 +8,11 @@
   <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.css">
 </head>
 <body>
-
-<?php
-echo '<hr>';
-
-
-
-echo '<hr>';
-?>
-
   <div class="container">
     <br>
     <h1>Чат</h1>
     <hr>
-    <form method="POST" id="form">
+    <div id="form">
       <div class="form-group">
         <label for="inputmsg">Отправить сообщение</label>
         <textarea type="password" class="form-control" id="inputmsg" placeholder="Сообщение"></textarea>
@@ -31,16 +22,10 @@ echo '<hr>';
         <label for="inputname">Ваше имя</label>
         <input type="name" class="form-control" id="inputname" placeholder="Ваше имя">
       </div>
-      <button type="submit" class="btn span4 btn-primary">Отправить</button>
-    </form>
+      <div type="submit" class="btn span4 btn-primary" onclick="send()">Отправить</div>
+    </div>
 
-    <div id="msg-list">
-      <hr>
-
-      <div class="msg">
-        <h5><small>12:21</small> Владимир</h5>
-        <p>Текст</p>
-      </div>
+    <div id="msglist">
       <hr>
     </div>
     
@@ -48,5 +33,6 @@ echo '<hr>';
 
   <script src="/public/jquery/jquery.js"></script>
   <script src="/public/bootstrap/js/bootstrap.js"></script>
+  <script src="/custom.js"></script>
 </body>
 </html>

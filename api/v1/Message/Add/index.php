@@ -21,6 +21,6 @@ function postMSG($time, $name = 'Unknown user', $msg = '') {
 //--------------------
 
 if ($_POST['postMSG'] === 'Y') 
-  print_r( postMSG(time()) );
+  print_r( postMSG(time(), $_POST['name'], $_POST['msg']) );
 else
   echo 0;
