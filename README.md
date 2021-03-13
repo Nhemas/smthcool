@@ -1,10 +1,12 @@
-# smthcool
+# Чат
 
-Сделано:
-Всё работает
+Запуск:
+git clone https://github.com/Nhemas/smthcool
 
-todo:
-
-4. запустить попробовать на чистом серве и написать гайд
-
-Х. проверить и добавить что-нибудь
+1. Скопировать в терминал:
+composer install
+cp -r vendor/components/jquery public/jquery
+cp -r vendor/twbs/bootstrap/dist public/bootstrap
+1.1
+2. Импортнуть базу данных (chat.sql)
+3. Заполнить config.json в корне
