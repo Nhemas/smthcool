@@ -2,7 +2,7 @@
 
 Запуск:
 ```
-git clone https://github.com/Nhemas/smthcool
+git clone https://github.com/Nhemas/chat_1
 ```
 1. Скопировать в терминал:
 ```
